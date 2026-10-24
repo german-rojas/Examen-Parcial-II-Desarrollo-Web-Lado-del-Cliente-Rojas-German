@@ -1,0 +1,44 @@
+/* --- PUNTO 4: Modifica para que los articles y la section tengan el mismo padding --- */
+section, article {
+    padding: 20px;
+}
+
+/* --- PUNTO 4: y para que entre el header, la section, los articles y el footer haya la misma separación (margin) --- */
+header, section, article, footer {
+    margin: 25px;
+}
+
+/* --- PUNTO 1: Cada elemento debe tener un color de fondo diferente --- */
+header {
+    background-color: #85C1E9; /* Azul claro */
+}
+
+section {
+    background-color: #FAD7A1; /* Naranja claro */
+}
+
+#articulo-1 {
+    background-color: #D2B4DE; /* Morado claro */
+}
+
+footer {
+    background-color: #A9DFBF; /* Verde claro */
+}
+
+/* --- PUNTO 2: Segundo article con imagen de fondo en vez de color --- */
+#articulo-2 {
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    color: purple;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Esto lo pongo para diferenciar el header del catálogo del header de la librería */
+#header-catalogo {
+    background-color: #E5E7E9;
+    text-align: center;
+}
